@@ -4,7 +4,9 @@ import theme from '../components/themes/default'
 import Flex from '../components/elements/Flex'
 import Header from '../components/Header'
 import Xperience from '../components/Xperience'
+import Education from '../components/Education'
 import Skills from '../components/Skills'
+import Languages from '../components/Languages'
 
 const Container = styled(Flex)`
     margin: 0 auto;
@@ -23,7 +25,9 @@ const App = () => (
         flexDirection='column'>
         <Header />
         <Xperience />
+        <Education />
         <Skills />
+        <Languages />
       </Flex>
     </Container>
   </ThemeProvider>

@@ -31,6 +31,7 @@ const skills = [
 
 const Skills = (props) => (
   <Flex
+    mb={30}
     width='100%'
     flexDirection='column'>
     <Box
