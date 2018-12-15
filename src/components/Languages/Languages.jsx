@@ -1,4 +1,5 @@
 import React from 'react'
+import PropTypes from 'prop-types'
 import Flex from '../elements/Flex'
 import Box from '../elements/Box'
 
@@ -9,6 +10,11 @@ const LanguageItem = (props) => (
     </Box>
   </Box>
 )
+
+LanguageItem.propTypes = {
+  name: PropTypes.string,
+  level: PropTypes.string
+}
 
 const Languages = (props) => (
   <Flex
@@ -21,19 +27,16 @@ const Languages = (props) => (
       color='#cc7000'>
       <strong>Idiomas:</strong>
     </Box>
-    <LanguageItem
-      name='Português'
-      level='Nativo'
-    />
-    <LanguageItem
-      name='Inglês'
-      level='Intermediário'
-    />
-    <LanguageItem
-      name='Espanhol'
-      level='Básico'
-    />
+    {
+      props.items.map((item, index) => (
+        <LanguageItem key={index} {...item} />
+      ))
+    }
   </Flex>
 )
+
+Languages.propTypes = {
+  items: PropTypes.array
+}
 
 export default Languages

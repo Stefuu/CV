@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Education Deve renderizar [snapshot] 1`] = `
+<div
+  class="sc-bdVaJa bGLETG"
+>
+  <div
+    class="sc-bdVaJa hJJydj"
+  >
+    <strong>
+      Educação:
+    </strong>
+  </div>
+  <div
+    class="sc-bdVaJa cLzzJK"
+  >
+    <div
+      class="sc-bdVaJa hvxHyA"
+    >
+      <strong>
+        Universidade Presbiteriana Mackenzie
+      </strong>
+    </div>
+    <div
+      class="sc-bdVaJa hvxHyA"
+    >
+      <span>
+        Bacharel em Ciência da Computação
+      </span>
+    </div>
+    <div
+      class="sc-bdVaJa hvxHyA"
+    >
+      <span>
+        2008 - 2012
+      </span>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,212 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Xperience Deve renderizar [snapshot] 1`] = `
+<div
+  class="sc-bdVaJa iDJurw"
+>
+  <div
+    class="sc-bdVaJa iBLqRm"
+  >
+    <strong>
+      Experiências:
+    </strong>
+  </div>
+  <div
+    class="sc-bdVaJa rxqLv"
+  >
+    <div
+      class="sc-bdVaJa UqLRs"
+    >
+      <div
+        class="sc-bdVaJa cqSdRU"
+      >
+        <strong>
+          - TOVS (idexo)
+        </strong>
+      </div>
+      <div
+        class="sc-bdVaJa hOejgn"
+      >
+        <div
+          class="sc-bdVaJa cZHmfT"
+        >
+          <span>
+            De: Jan/2018 até Hoje
+          </span>
+        </div>
+        <div
+          class="sc-bdVaJa nLDLh"
+        >
+          <span>
+            Cargo: Desenvolvedor Front-End Sênior
+          </span>
+        </div>
+        <div
+          class="sc-bdVaJa iSxgmk"
+        >
+          <span>
+            Descrição: Criação e manutenção de um e-commerce capaz de se adequar a regras de negócio complexas de produtos da empresa
+          </span>
+        </div>
+        <div
+          class="sc-bdVaJa eCYppH"
+        >
+          <div
+            class="sc-bdVaJa hvxHyA"
+          >
+            <span>
+              Destaques:
+            </span>
+          </div>
+          <ul
+            class="sc-bwzfXH bJZRKI"
+          >
+            <li
+              class="sc-bdVaJa cWwZGa"
+            >
+              - Ambiente de inovação com intenção de renovar a cultura da velha TOTVS. Trabalhamos lado a lado com start-ups incubadas pela TOTVS, o que permite agregar muito sobre tecnologias e soluções muito quentes
+            </li>
+            <li
+              class="sc-bdVaJa cXHEYW"
+            >
+              - Tivemos a oportunidade de começar tudo do zero, portanto escolhemos a stack, que é: React com styled-components, styled-system, fazendo uso de context API, Graphql com Relay modern, Node (express) e MQTT (para mensagem entre micro-serviços)
+            </li>
+            <li
+              class="sc-bdVaJa cXHEYW"
+            >
+              - Criação de uma arquitetura de execução de regras de negócio no front-end que não são fixas no mesmo. Usamos uma estrutura declarativa com https://github.com/jwadhams/json-logic-js que permite que as regras sejam geradas pelo back-end e apénas consumidas e executadas pelo front (evitando um oceano de condições no front).
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div
+      class="sc-bdVaJa UqLRs"
+    >
+      <div
+        class="sc-bdVaJa cqSdRU"
+      >
+        <strong>
+          - Universo Online (UOL)
+        </strong>
+      </div>
+      <div
+        class="sc-bdVaJa hOejgn"
+      >
+        <div
+          class="sc-bdVaJa cZHmfT"
+        >
+          <span>
+            De: Jul/2012 até Dez/2017
+          </span>
+        </div>
+        <div
+          class="sc-bdVaJa nLDLh"
+        >
+          <span>
+            Cargo: Desenvolvedor Front-End Pleno
+          </span>
+        </div>
+        <div
+          class="sc-bdVaJa iSxgmk"
+        >
+          <span>
+            Descrição: Criação e manutenção de páginas do portal (layout, integrações com back-end e sistemas externos), criação e manutenção de sistemas internos (principalmente em node), criação de serviços
+          </span>
+        </div>
+        <div
+          class="sc-bdVaJa eCYppH"
+        >
+          <div
+            class="sc-bdVaJa hvxHyA"
+          >
+            <span>
+              Destaques:
+            </span>
+          </div>
+          <ul
+            class="sc-bwzfXH bJZRKI"
+          >
+            <li
+              class="sc-bdVaJa cWwZGa"
+            >
+              - Passei por diversas areas de desenvolvimento da empresa, ganhando bom conhecimento das dificuldades e desafios de colocar e manter um portal com milhões de acessos em produção.
+            </li>
+            <li
+              class="sc-bdVaJa cXHEYW"
+            >
+              - Passei pelas dificuldades de se criar layouts responsivos cross-browser que precisam rodar em navegadores antigos.
+            </li>
+            <li
+              class="sc-bdVaJa cXHEYW"
+            >
+              - Desenvolvi integrações com ferramentas experimentais do google e facebook. Como o UOL tinha parceria com essas empresas, e era um bom laboratório pela quantidade de acessos, eles liberavam algumas ferramentas novas antes do lançamento. Ferramentas como AMP, Instant Articles e Facebook Messenger BOTS.
+            </li>
+            <li
+              class="sc-bdVaJa cXHEYW"
+            >
+              - Aprendi muito sobre arquitetura de back-end trabalhando na criação do micro-serviço do Facebook Messenger BOT, pelo fato de ser necessário fazer envio de milhões de mensagens (quando aparecia alguma notícia bombástica), aprendi muito sobre como escalar uma aplicação node, kubernetes, sobre uso de filas (rabbitmq principalmente) e banco de dados não relacional (mongodb)
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div
+      class="sc-bdVaJa UqLRs"
+    >
+      <div
+        class="sc-bdVaJa cqSdRU"
+      >
+        <strong>
+          - KAITS - Sistema educacional
+        </strong>
+      </div>
+      <div
+        class="sc-bdVaJa hOejgn"
+      >
+        <div
+          class="sc-bdVaJa cZHmfT"
+        >
+          <span>
+            De: Fev/2011 até Jan/2012
+          </span>
+        </div>
+        <div
+          class="sc-bdVaJa nLDLh"
+        >
+          <span>
+            Cargo: Estagiário
+          </span>
+        </div>
+        <div
+          class="sc-bdVaJa iSxgmk"
+        >
+          <span>
+            Descrição: Atuação com javascript vanilla na construção e manutenção de um sistema web para escolas de idioma
+          </span>
+        </div>
+        <div
+          class="sc-bdVaJa eCYppH"
+        >
+          <div
+            class="sc-bdVaJa hvxHyA"
+          >
+            <span>
+              Destaques:
+            </span>
+          </div>
+          <ul
+            class="sc-bwzfXH bJZRKI"
+          >
+            <li
+              class="sc-bdVaJa cWwZGa"
+            >
+              -Uso de javascript sem nenhum framework foi uma experiência interessante, principalmente por estar começando a usar js na época
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

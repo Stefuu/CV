@@ -1,0 +1,60 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`XperienceItem Deve renderizar [snapshot] 1`] = `
+<div
+  class="sc-bdVaJa UqLRs"
+>
+  <div
+    class="sc-bdVaJa cqSdRU"
+  >
+    <strong>
+      - KAITS - Sistema educacional
+    </strong>
+  </div>
+  <div
+    class="sc-bdVaJa hOejgn"
+  >
+    <div
+      class="sc-bdVaJa cZHmfT"
+    >
+      <span>
+        De: Fev/2011 até Jan/2012
+      </span>
+    </div>
+    <div
+      class="sc-bdVaJa nLDLh"
+    >
+      <span>
+        Cargo: Estagiário
+      </span>
+    </div>
+    <div
+      class="sc-bdVaJa iSxgmk"
+    >
+      <span>
+        Descrição: Atuação com javascript vanilla na construção e manutenção de um sistema web para escolas de idioma
+      </span>
+    </div>
+    <div
+      class="sc-bdVaJa eCYppH"
+    >
+      <div
+        class="sc-bdVaJa hvxHyA"
+      >
+        <span>
+          Destaques:
+        </span>
+      </div>
+      <ul
+        class="sc-bwzfXH bJZRKI"
+      >
+        <li
+          class="sc-bdVaJa cWwZGa"
+        >
+          -Uso de javascript sem nenhum framework foi uma experiência interessante, principalmente por estar começando a usar js na época
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+`;

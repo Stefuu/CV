@@ -1,4 +1,5 @@
 import React from 'react'
+import PropTypes from 'prop-types'
 import styled from 'styled-components'
 import Flex from '../elements/Flex'
 import Box from '../elements/Box'
@@ -10,24 +11,6 @@ const Ul = styled(Box)`
     column-count: 3;
     column-gap: 20px;
 `
-
-const skills = [
-  'Javascript',
-  'ES20XX',
-  'HTML5',
-  'CSS3',
-  'React',
-  'Graphql',
-  'Relay',
-  'Linux',
-  'GIT',
-  'Docker',
-  'Gulp / Grunt',
-  'Node',
-  'Mongodb',
-  'Rabbitmq',
-  'SCRUM'
-]
 
 const Skills = (props) => (
   <Flex
@@ -42,7 +25,7 @@ const Skills = (props) => (
     </Box>
     <Ul as='ul'>
       {
-        skills.map((item, index) => (
+        props.skills.map((item, index) => (
           <Box
             as='li'
             mb={3}
@@ -55,5 +38,9 @@ const Skills = (props) => (
     </Ul>
   </Flex>
 )
+
+Skills.propTypes = {
+  skills: PropTypes.array
+}
 
 export default Skills

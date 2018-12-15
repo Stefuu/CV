@@ -40,6 +40,7 @@ const XperienceItem = (props) => (
             <Ul>
               {props.highlights.map((item, index) => (
                 <Box
+                  key={index}
                   as='li'
                   mt={index > 0 ? 5 : 0}
                 >{item}</Box>

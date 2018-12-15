@@ -1,0 +1,190 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Skills Deve renderizar [snapshot] 1`] = `
+<div
+  class="sc-bdVaJa bGLETG"
+>
+  <div
+    class="sc-bdVaJa hJJydj"
+  >
+    <strong>
+      Skills:
+    </strong>
+  </div>
+  <ul
+    class="sc-bdVaJa sc-bwzfXH hOMBTH"
+  >
+    <li
+      class="sc-bdVaJa btjpiP"
+      font-size="15,18"
+    >
+      <span>
+        - 
+        Javascript
+      </span>
+    </li>
+    <li
+      class="sc-bdVaJa btjpiP"
+      font-size="15,18"
+    >
+      <span>
+        - 
+        ES20XX
+      </span>
+    </li>
+    <li
+      class="sc-bdVaJa btjpiP"
+      font-size="15,18"
+    >
+      <span>
+        - 
+        HTML5
+      </span>
+    </li>
+    <li
+      class="sc-bdVaJa btjpiP"
+      font-size="15,18"
+    >
+      <span>
+        - 
+        CSS3
+      </span>
+    </li>
+    <li
+      class="sc-bdVaJa btjpiP"
+      font-size="15,18"
+    >
+      <span>
+        - 
+        React
+      </span>
+    </li>
+    <li
+      class="sc-bdVaJa btjpiP"
+      font-size="15,18"
+    >
+      <span>
+        - 
+        Graphql
+      </span>
+    </li>
+    <li
+      class="sc-bdVaJa btjpiP"
+      font-size="15,18"
+    >
+      <span>
+        - 
+        Relay
+      </span>
+    </li>
+    <li
+      class="sc-bdVaJa btjpiP"
+      font-size="15,18"
+    >
+      <span>
+        - 
+        Unity Test
+      </span>
+    </li>
+    <li
+      class="sc-bdVaJa btjpiP"
+      font-size="15,18"
+    >
+      <span>
+        - 
+        Jest
+      </span>
+    </li>
+    <li
+      class="sc-bdVaJa btjpiP"
+      font-size="15,18"
+    >
+      <span>
+        - 
+        Enzyme
+      </span>
+    </li>
+    <li
+      class="sc-bdVaJa btjpiP"
+      font-size="15,18"
+    >
+      <span>
+        - 
+        Nightwatch
+      </span>
+    </li>
+    <li
+      class="sc-bdVaJa btjpiP"
+      font-size="15,18"
+    >
+      <span>
+        - 
+        Linux
+      </span>
+    </li>
+    <li
+      class="sc-bdVaJa btjpiP"
+      font-size="15,18"
+    >
+      <span>
+        - 
+        GIT
+      </span>
+    </li>
+    <li
+      class="sc-bdVaJa btjpiP"
+      font-size="15,18"
+    >
+      <span>
+        - 
+        Docker
+      </span>
+    </li>
+    <li
+      class="sc-bdVaJa btjpiP"
+      font-size="15,18"
+    >
+      <span>
+        - 
+        Gulp / Grunt
+      </span>
+    </li>
+    <li
+      class="sc-bdVaJa btjpiP"
+      font-size="15,18"
+    >
+      <span>
+        - 
+        Node
+      </span>
+    </li>
+    <li
+      class="sc-bdVaJa btjpiP"
+      font-size="15,18"
+    >
+      <span>
+        - 
+        Mongodb
+      </span>
+    </li>
+    <li
+      class="sc-bdVaJa btjpiP"
+      font-size="15,18"
+    >
+      <span>
+        - 
+        Rabbitmq
+      </span>
+    </li>
+    <li
+      class="sc-bdVaJa btjpiP"
+      font-size="15,18"
+    >
+      <span>
+        - 
+        SCRUM
+      </span>
+    </li>
+  </ul>
+</div>
+`;

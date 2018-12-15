@@ -7,6 +7,7 @@ import Xperience from '../components/Xperience'
 import Education from '../components/Education'
 import Skills from '../components/Skills'
 import Languages from '../components/Languages'
+import data from '../static/data/data.json'
 
 const Container = styled(Flex)`
     margin: 0 auto;
@@ -15,22 +16,26 @@ const Container = styled(Flex)`
     font-family: Lato;
 `
 
-const App = () => (
-  <ThemeProvider theme={theme}>
-    <Container
-      maxWidth={[600, 600, 800]}>
-      <Flex
-        alignItems={['center', 'flex-start']}
-        width='100%'
-        flexDirection='column'>
-        <Header />
-        <Xperience />
-        <Education />
-        <Skills />
-        <Languages />
-      </Flex>
-    </Container>
-  </ThemeProvider>
-)
+const App = () => {
+  if (!data) return null
+
+  return (
+    <ThemeProvider theme={theme}>
+      <Container
+        maxWidth={[600, 600, 800]}>
+        <Flex
+          alignItems={['center', 'flex-start']}
+          width='100%'
+          flexDirection='column'>
+          <Header {...data.header} />
+          <Xperience {...data.xperience} />
+          <Education {...data.education} />
+          <Skills skills={data.skills} />
+          <Languages {...data.languages} />
+        </Flex>
+      </Container>
+    </ThemeProvider>
+  )
+}
 
 export default App

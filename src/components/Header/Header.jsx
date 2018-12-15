@@ -1,4 +1,5 @@
 import React from 'react'
+import PropTypes from 'prop-types'
 import styled from 'styled-components'
 import Flex from '../../components/elements/Flex'
 import Box from '../../components/elements/Box'
@@ -11,14 +12,19 @@ const Image = styled.img`
 
 const HeaderItem = (props) => (
   <Box
-    style={{ whiteSpace: 'nowrap' }}
     mt={10}
+    style={{ whiteSpace: 'nowrap' }}
     color='#2B547E'
     fontSize={[16, 16, 20]}>
     <span style={{ fontWeight: 'bold' }}>{props.name}: </span>
     <span>{props.text}</span>
   </Box>
 )
+
+HeaderItem.propTypes = {
+  name: PropTypes.string,
+  text: PropTypes.string
+}
 
 const Header = (props) => (
   <Flex
@@ -37,37 +43,36 @@ const Header = (props) => (
       <Box
         mb={15}
         fontSize={[28]}>
-        <strong>Stéfano Damiano</strong>
+        <strong>{props.name}</strong>
         <Box
           fontSize={[23]}>
-          <strong>Desenvolvedor Front-End</strong>
+          <strong>{props.description}</strong>
         </Box>
       </Box>
       <Flex
+        flexWrap='wrap'
         flexDirection={['column', 'row', 'row']}>
-        <Box>
-          <HeaderItem
-            name='Email'
-            text='mineiro.guaxupe@gmail.com'
-          />
-          <HeaderItem
-            name='Phone'
-            text='11 97027-9708'
-          />
-        </Box>
-        <Box ml={[0, 10, 10]}>
-          <HeaderItem
-            name='Nasc'
-            text='08/08/1989'
-          />
-          <HeaderItem
-            name='Phone'
-            text='11 97027-9708'
-          />
-        </Box>
+        {
+          props.items.map((item, index) => (
+            <Box
+              width='50%'
+              key={index}>
+              <HeaderItem
+                name={item.name}
+                text={item.text}
+              />
+            </Box>
+          ))
+        }
       </Flex>
     </Box>
   </Flex>
 )
+
+Header.propTypes = {
+  name: PropTypes.string,
+  description: PropTypes.string,
+  items: PropTypes.array
+}
 
 export default Header

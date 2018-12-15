@@ -1,0 +1,111 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header Deve renderizar [snapshot] 1`] = `
+<div
+  class="sc-bdVaJa eXuTnH"
+>
+  <div
+    class="sc-bdVaJa dnIFYn"
+  >
+    <img
+      alt="Stéfano"
+      class="sc-bwzfXH dmnngk"
+      src="me.jpeg"
+    />
+  </div>
+  <div
+    class="sc-bdVaJa hvxHyA"
+  >
+    <div
+      class="sc-bdVaJa heyuGm"
+    >
+      <strong>
+        Stéfano Damiano
+      </strong>
+      <div
+        class="sc-bdVaJa cLkge"
+      >
+        <strong>
+          Desenvolvedor Front-End
+        </strong>
+      </div>
+    </div>
+    <div
+      class="sc-bdVaJa eVLNKq"
+    >
+      <div
+        class="sc-bdVaJa ccJYFI"
+      >
+        <div
+          class="sc-bdVaJa irusOz"
+          style="white-space: nowrap;"
+        >
+          <span
+            style="font-weight: bold;"
+          >
+            Phone
+            : 
+          </span>
+          <span>
+            11 97027-9708
+          </span>
+        </div>
+      </div>
+      <div
+        class="sc-bdVaJa ccJYFI"
+      >
+        <div
+          class="sc-bdVaJa irusOz"
+          style="white-space: nowrap;"
+        >
+          <span
+            style="font-weight: bold;"
+          >
+            Nasc
+            : 
+          </span>
+          <span>
+            08/08/1989
+          </span>
+        </div>
+      </div>
+      <div
+        class="sc-bdVaJa ccJYFI"
+      >
+        <div
+          class="sc-bdVaJa irusOz"
+          style="white-space: nowrap;"
+        >
+          <span
+            style="font-weight: bold;"
+          >
+            Cidade
+            : 
+          </span>
+          <span>
+            São Paulo - SP
+          </span>
+        </div>
+      </div>
+      <div
+        class="sc-bdVaJa ccJYFI"
+      >
+        <div
+          class="sc-bdVaJa irusOz"
+          style="white-space: nowrap;"
+        >
+          <span
+            style="font-weight: bold;"
+          >
+            Email
+            : 
+          </span>
+          <span>
+            mineiro.guaxupe@gmail.com
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,60 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Languages Deve renderizar [snapshot] 1`] = `
+<div
+  class="sc-bdVaJa bGLETG"
+>
+  <div
+    class="sc-bdVaJa hJJydj"
+  >
+    <strong>
+      Idiomas:
+    </strong>
+  </div>
+  <div
+    class="sc-bdVaJa cLzzJK"
+  >
+    <div
+      class="sc-bdVaJa hvxHyA"
+    >
+      <strong>
+        Português
+      </strong>
+      <span>
+         - 
+        Nativo
+      </span>
+    </div>
+  </div>
+  <div
+    class="sc-bdVaJa cLzzJK"
+  >
+    <div
+      class="sc-bdVaJa hvxHyA"
+    >
+      <strong>
+        Inglês
+      </strong>
+      <span>
+         - 
+        Intermediário
+      </span>
+    </div>
+  </div>
+  <div
+    class="sc-bdVaJa cLzzJK"
+  >
+    <div
+      class="sc-bdVaJa hvxHyA"
+    >
+      <strong>
+        Espanhol
+      </strong>
+      <span>
+         - 
+        Básico
+      </span>
+    </div>
+  </div>
+</div>
+`;
