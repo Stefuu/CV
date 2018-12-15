@@ -8,7 +8,7 @@ const Ul = styled(Box)`
     list-style: none;
     padding: 0;
     margin: 0;
-    column-count: 3;
+    column-count: 2;
     column-gap: 20px;
 `
 
