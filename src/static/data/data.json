@@ -24,8 +24,21 @@
     "xperience": {
         "items": [
             {
+                "company": "- Dafiti",
+                "duration": "De: Fev/2019 até Hoje",
+                "position": "Cargo: Desenvolvedor Front-End Sênior",
+                "description": "Descrição: Participo desde o início da renovação do e-commerce como um todo, projeto cuja a intenção é substituir a plataforma legada por uma plataforma moderna e escalável seguindo as premissas de PWA",
+                "highlights": [                    
+                    "- Tive a oportunidade de participar das decisões de arquitetura da nova plataforma, escolhendo a nova stack baseado nas necessidades do produto. Acabamos escolhendo uma stack de React com SSR e Graphql para o front end. Uma arquitetura de API Gateway e micro serviços no backend utilizando Golang e nodeJS com typescript trazendo também uma cultura de teste end to end, unitários com alta cobertura e CI/CD.",
+                    "- Aprendi muito a respeito de mentoria de desenvolvedores menos experientes e a difundir conhecimento sobre padrões e boas práticas de desenvolvimento, ao mesmo tempo que aprendo com eles, para que a qualidade e as idéias iniciais de um projeto de renovação como esse não se perdessem ao longo de tempo.",
+                    "- Apesar de ser especializado em front-end, atuei muito no backend da plataforma, especialmente nos pontos de comunicação entre micro serviços e API Gateway (BFF), também tive muito contato com a equipe de infraestrutura aumentando meus conhecimentos sobre as ferramentas utilizadas, como RabbitMQ, Kubernetes e plataformas como Akamai.",
+                    "- A alta performance do site sempre foi uma premissa nesse projeto, e tive a oportunidade de aprender muito sobre como conseguir atingir e manter a performance de um e-commerce, e todas as dificuldades técnicas e interpessoais que isso pode envolver.",
+                    "- Fui capaz de manter bom contato com pessoas de outras áreas como marketing e negócios, abrindo mais a mente para perceber as necessidades da empresa como um todo e poder tomar decisões técnicas de maneira mais inteligente com essas informações em mãos."
+                ]
+            },
+            {
                 "company": "- TOTVS (idexo)",
-                "duration": "De: Jan/2018 até Hoje",
+                "duration": "De: Jan/2018 até Fev/2019",
                 "position": "Cargo: Desenvolvedor Front-End Sênior",
                 "description": "Descrição: Criação e manutenção de um e-commerce capaz de se adequar a regras de negócio complexas de produtos da empresa",
                 "highlights": [                    
@@ -63,21 +76,24 @@
         "HTML5",
         "CSS3",
         "React",
+        "SSR",
         "Graphql",
         "Relay",
+        "Apollo",
         "Unity Test",
         "Jest",
         "Enzyme",
+        "React-testing-library",
         "Nightwatch",
         "Linux",
         "GIT",
         "Docker",
-        "Gulp",
-	"Grunt",
         "Node",
         "Mongodb",
         "Rabbitmq",
-        "SCRUM"
+        "Kubernetes",
+        "SCRUM",
+        "Kanban"
     ],
     "education": {
         "items": [
